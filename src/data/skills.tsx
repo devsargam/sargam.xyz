@@ -1,9 +1,13 @@
 import {
   AngularIcon,
   BashIcon,
+  DockerIcon,
   ExpressIcon,
+  GitIcon,
   JavascriptIcon,
+  KafkaIcon,
   MongoIcon,
+  NeovimIcon,
   NestIcon,
   NextIcon,
   PostgresIcon,
@@ -12,6 +16,7 @@ import {
   TailwindIcon,
   TypescriptIcon,
 } from '@/components/icons';
+import { LinuxIcon } from '@/components/icons/linux';
 import { JSX } from 'react';
 
 export type SkillPillProps = {
@@ -83,5 +88,28 @@ export const DATABASES: SkillPillProps[] = [
   {
     name: 'Mongodb',
     icon: <MongoIcon />,
+  },
+];
+
+export const TOOLS: SkillPillProps[] = [
+  {
+    name: 'neovim',
+    icon: <NeovimIcon />,
+  },
+  {
+    name: 'git',
+    icon: <GitIcon />,
+  },
+  {
+    name: 'docker',
+    icon: <DockerIcon />,
+  },
+  {
+    name: 'kafka',
+    icon: <KafkaIcon />,
+  },
+  {
+    name: 'linux',
+    icon: <LinuxIcon />,
   },
 ];

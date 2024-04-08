@@ -1,4 +1,4 @@
-import { DATABASES, FRAMEWORKS, LANGUAGES } from '@/data/skills';
+import { DATABASES, FRAMEWORKS, LANGUAGES, TOOLS } from '@/data/skills';
 import Image from 'next/image';
 import { JSX } from 'react';
 
@@ -55,9 +55,9 @@ export default function Skills() {
           Tools and technologies
         </span>
         <div className="mt-2 flex flex-wrap gap-3">
-          {/* {TOOLS_TECHNOLOGIES.map((pill, index) => (
-              <SkillPill {...pill} />
-            ))} */}
+          {TOOLS.map(({ icon, name }, index) => (
+            <SkillPill icon={icon} name={name} key={index} />
+          ))}
         </div>
       </div>
     </section>

@@ -1,6 +1,6 @@
 export const BashIcon = () => (
   <svg
-    className="h-6"
+    className="h-8"
     viewBox="-16 0 256 256"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"

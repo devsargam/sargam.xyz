@@ -2,7 +2,7 @@ export const TailwindIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
-    className="h-6"
+    className="h-8"
     viewBox="0 0 256 256"
   >
     <path

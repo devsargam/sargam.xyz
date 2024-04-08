@@ -10,3 +10,7 @@ export * from './tailwind';
 export * from './postgres';
 export * from './mongo';
 export * from './redis';
+export * from './docker';
+export * from './git';
+export * from './kafka';
+export * from './neovim';
