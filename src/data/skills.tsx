@@ -27,27 +27,15 @@ export type SkillPillProps = {
 export const LANGUAGES: SkillPillProps[] = [
   {
     name: 'Javascript',
-    icon: (
-      <span className="relative h-5 w-5 sm:h-8 sm:w-8">
-        <JavascriptIcon />
-      </span>
-    ),
+    icon: <JavascriptIcon />,
   },
   {
     name: 'Typescript',
-    icon: (
-      <span className="relative h-5 w-5 sm:h-8 sm:w-8">
-        <TypescriptIcon />
-      </span>
-    ),
+    icon: <TypescriptIcon />,
   },
   {
     name: 'Bash',
-    icon: (
-      <span className="relative h-5 w-5 sm:h-8 sm:w-8">
-        <BashIcon />
-      </span>
-    ),
+    icon: <BashIcon />,
   },
 ];
 

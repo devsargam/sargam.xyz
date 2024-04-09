@@ -1,6 +1,6 @@
 export const TypescriptIcon = () => (
   <svg
-    className="h-8"
+    className="h-6"
     viewBox="0 0 400 400"
     id="Layer_1"
     xmlns="http://www.w3.org/2000/svg"

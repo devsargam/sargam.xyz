@@ -1,4 +1,6 @@
-import { AboutMe, HeroBtn, Projects } from '@/components';
+import { HeroBtn, Projects } from '@/components';
+import { Project } from '@/components/Project';
+import Skills from '@/components/Skills';
 
 export default function Home() {
   return (
@@ -19,6 +21,7 @@ export default function Home() {
           <HeroBtn />
         </div>
       </div>
+      <Skills />
       <Projects />
     </>
   );

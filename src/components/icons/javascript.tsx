@@ -1,7 +1,7 @@
 export const JavascriptIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-8"
+    className="h-6"
     preserveAspectRatio="xMinYMin meet"
     viewBox="0 0 256 256"
   >
