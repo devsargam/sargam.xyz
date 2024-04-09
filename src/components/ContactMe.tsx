@@ -15,7 +15,7 @@ export const ContactMe = () => {
         <h2 className="text-4xl sm:text-5xl md:text-7xl font-bold dark:text-white text-center">
           Contact Me
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 bg-blue-300 dark:bg-blue-600 rounded-3xl w-full md:rounded-full py-10 m-1">
+        <div className="grid grid-cols-1 md:grid-cols-2 bg-[#eee] dark:bg-[#111] rounded-3xl w-full md:rounded-full py-10 m-1 border-2 dark:border-white border-black">
           <div className="flex flex-col items-center">
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold dark:text-white text-center">
               Schedule a meet with me
