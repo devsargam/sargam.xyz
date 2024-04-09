@@ -8,7 +8,7 @@ export const Projects = () => {
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold dark:text-white text-center p-10">
           My Projects
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center gap-10 container mx-auto">
           {projects.map((project) => (
             <Project {...project} key={project.name} />
           ))}
