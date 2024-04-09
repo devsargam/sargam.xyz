@@ -9,19 +9,19 @@ export const Nav = () => {
           <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 dark:bg-white bg-black"></span>
         </li>
         <li className="cursor-pointer group transition duration-300 text-sm md:text-base">
-          <Link href={'#about'}>About Me</Link>
+          <Link href={'/aboutme'}>About Me</Link>
           <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 dark:bg-white bg-black"></span>
         </li>
         <li className="cursor-pointer group transition duration-300 text-sm md:text-base">
-          <Link href={'#skills'}>Skills</Link>
+          <Link href={'/#skills'}>Skills</Link>
           <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 dark:bg-white bg-black"></span>
         </li>
         <li className="cursor-pointer group transition duration-300 text-sm md:text-base">
-          <Link href={'#projects'}>Projects</Link>
+          <Link href={'/#projects'}>Projects</Link>
           <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 dark:bg-white bg-black"></span>
         </li>
         <li className="cursor-pointer group transition duration-300 text-sm md:text-base">
-          <Link href={'#contact'}>Contact Me</Link>
+          <Link href={'/#contact'}>Contact Me</Link>
           <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 dark:bg-white bg-black"></span>
         </li>
       </ul>
