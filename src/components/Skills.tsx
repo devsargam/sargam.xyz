@@ -19,52 +19,55 @@ function SkillPill(props: SkillPillProps) {
 
 export default function Skills() {
   return (
-    <section className="overflow-hidden dark:text-white py-10" id="skills">
-      <div className="relative mx-auto max-w-7xl">
-        <h2 className="text-4xl sm:text-5xl md:text-7xl font-bold dark:text-white text-center">
-          Technical Skills
-        </h2>
-        <div className="mt-5">
-          <p className="font-semibold text-2xl mx-auto text-center">
-            Languages
-          </p>
-          <div className="mt-2 flex flex-wrap justify-center gap-5 text-xl dark:text-zinc-100">
-            {LANGUAGES.map(({ icon, name }, i) => (
-              <SkillPill icon={icon} name={name} key={i} />
-            ))}
+    <>
+      <div id="skills" className="relative -top-16"></div>
+      <section className="overflow-hidden dark:text-white py-10">
+        <div className="relative mx-auto max-w-7xl">
+          <h2 className="text-4xl sm:text-5xl md:text-7xl font-bold dark:text-white text-center">
+            Technical Skills
+          </h2>
+          <div className="mt-5">
+            <p className="font-semibold text-2xl mx-auto text-center">
+              Languages
+            </p>
+            <div className="mt-2 flex flex-wrap justify-center gap-5 text-xl dark:text-zinc-100">
+              {LANGUAGES.map(({ icon, name }, i) => (
+                <SkillPill icon={icon} name={name} key={i} />
+              ))}
+            </div>
+          </div>
+          <div className="mt-5">
+            <p className="font-semibold text-2xl mx-auto text-center">
+              Libraries and frameworks
+            </p>
+            <div className="mt-2 flex flex-wrap gap-5 text-xl justify-center dark:text-zinc-100">
+              {FRAMEWORKS.map(({ icon, name }, index) => (
+                <SkillPill icon={icon} name={name} key={index} />
+              ))}
+            </div>
+          </div>
+          <div className="mt-5">
+            <p className="font-semibold text-2xl mx-auto text-center">
+              Databases
+            </p>
+            <div className="mt-2 flex flex-wrap gap-5 justify-center dark:text-zinc-100">
+              {DATABASES.map(({ icon, name }, index) => (
+                <SkillPill icon={icon} name={name} key={index} />
+              ))}
+            </div>
+          </div>
+          <div className="mt-5">
+            <p className="text-2xl font-semibold mx-auto text-center">
+              Tools and technologies
+            </p>
+            <div className="mt-2 flex flex-wrap gap-5 justify-center dark:text-zinc-100">
+              {TOOLS.map(({ icon, name }, index) => (
+                <SkillPill icon={icon} name={name} key={index} />
+              ))}
+            </div>
           </div>
         </div>
-        <div className="mt-5">
-          <p className="font-semibold text-2xl mx-auto text-center">
-            Libraries and frameworks
-          </p>
-          <div className="mt-2 flex flex-wrap gap-5 text-xl justify-center dark:text-zinc-100">
-            {FRAMEWORKS.map(({ icon, name }, index) => (
-              <SkillPill icon={icon} name={name} key={index} />
-            ))}
-          </div>
-        </div>
-        <div className="mt-5">
-          <p className="font-semibold text-2xl mx-auto text-center">
-            Databases
-          </p>
-          <div className="mt-2 flex flex-wrap gap-5 justify-center dark:text-zinc-100">
-            {DATABASES.map(({ icon, name }, index) => (
-              <SkillPill icon={icon} name={name} key={index} />
-            ))}
-          </div>
-        </div>
-        <div className="mt-5">
-          <p className="text-2xl font-semibold mx-auto text-center">
-            Tools and technologies
-          </p>
-          <div className="mt-2 flex flex-wrap gap-5 justify-center dark:text-zinc-100">
-            {TOOLS.map(({ icon, name }, index) => (
-              <SkillPill icon={icon} name={name} key={index} />
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
