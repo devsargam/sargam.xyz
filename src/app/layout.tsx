@@ -4,6 +4,7 @@ import './globals.css';
 import { AnimatedCursor } from '@/components';
 import { Nav } from '@/components';
 import { Toaster } from 'sonner';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
           <AnimatedCursor />
           <Toaster />
           {children}
+          <SpeedInsights />
         </main>
       </body>
     </html>
