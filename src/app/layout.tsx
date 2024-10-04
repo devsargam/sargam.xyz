@@ -4,8 +4,8 @@ import './globals.css';
 import { AnimatedCursor } from '@/components';
 import { Nav } from '@/components';
 import { Toaster } from 'sonner';
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -23,9 +23,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <main className=" dark:bg-black bg-white dark:bg-grid-small-white/[0.3] sm:dark:bg-grid-white/[0.1] bg-grid-black/[0.1]">
-          <Nav />
-          <AnimatedCursor />
-          <Toaster />
           {children}
           <SpeedInsights />
           <Analytics />
