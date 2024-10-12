@@ -18,7 +18,7 @@ function Introduction() {
           alt="Sargam's Photo"
           height={200}
           width={200}
-          className="object-cover rounded-full border-4 border-white"
+          className="object-cover rounded-full border-4 dark:border-white border-zinc-900"
         />
       </div>
     </div>
