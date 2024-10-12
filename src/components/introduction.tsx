@@ -3,7 +3,7 @@ import React from 'react';
 
 function Introduction() {
   return (
-    <div className="flex justify-between items-center w-full px-4 py-4">
+    <div className="flex justify-between items-center w-full">
       <div>
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-2 text-black dark:text-white">
           Sargam Poudel
@@ -18,7 +18,7 @@ function Introduction() {
           alt="Sargam's Photo"
           height={200}
           width={200}
-          className="object-cover rounded-full"
+          className="object-cover rounded-full border-4 border-white"
         />
       </div>
     </div>
