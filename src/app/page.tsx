@@ -1,3 +1,4 @@
+import BlogSection from '@/components/blog-section';
 import GetInTouch from '@/components/get-in-touch';
 import Introduction from '@/components/introduction';
 import ProofOfWork from '@/components/proof-of-work';
@@ -12,6 +13,8 @@ export default function Home() {
       <ProofOfWork />
       {/* Experience Section */}
       <WorkExperience />
+      {/* Blogs Section */}
+      <BlogSection />
       {/* Footer Section */}
       <hr className="border-zinc-900 dark:border-zinc-800 border w-full" />
       <GetInTouch />
