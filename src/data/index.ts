@@ -46,3 +46,31 @@ export const links: Array<ILink> = [
     icon: 'github',
   },
 ];
+
+interface WorkExperience {
+  startDate: string;
+  endDate: string;
+  company: string;
+  position: string;
+}
+
+export const experiences: WorkExperience[] = [
+  {
+    startDate: 'October 2024',
+    endDate: 'Present',
+    company: 'Dropstation Inc.',
+    position: 'Software Engineer',
+  },
+  {
+    startDate: 'April 2024',
+    endDate: 'October 2024',
+    company: 'Dropstation Inc.',
+    position: 'Software Engineer Intern',
+  },
+  {
+    startDate: 'Feb 2024',
+    endDate: 'April 2024',
+    company: 'Gamersberg',
+    position: 'Backend Software Intern',
+  },
+];

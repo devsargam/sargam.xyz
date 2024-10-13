@@ -1,4 +1,6 @@
 import React from 'react';
+import { Briefcase } from 'lucide-react';
+import { experiences } from '@/data';
 
 function WorkExperience() {
   return (
@@ -7,8 +9,22 @@ function WorkExperience() {
         Work Experience
       </h2>
       <p className="text-gray-600 dark:text-gray-400 mb-4">
-        All my experiences as a software engineer
+        All my professional experiences as a software engineer
       </p>
+      <div className="space-y-4">
+        {experiences.map((exp, index) => (
+          <div key={index} className="flex items-center space-x-3">
+            <Briefcase className="w-5 h-5 mt-1 text-gray-400" />
+            <div>
+              <p className="font-semibold">{exp.company}</p>
+              <p className="text-gray-400">{exp.position}</p>
+              <p className="text-sm text-gray-500">
+                {exp.startDate} - {exp.endDate}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
