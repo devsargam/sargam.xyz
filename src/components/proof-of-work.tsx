@@ -51,7 +51,7 @@ function ProofOfWorkList() {
               key={el?.href}
               href={el?.href}
               target="__blank"
-              className="dark:hover:bg-zinc-800 dark:border-zinc-800 border-2 border-gray-200 rounded-md py-2 w-full mb-4 hover:bg-gray-50 flex flex-row items-center space-x-2 px-2"
+              className="dark:hover:bg-zinc-800 dark:border-zinc-800 border-2 border-zinc-800 rounded-md py-2 w-full mb-4 hover:bg-gray-50 flex flex-row items-center space-x-2 px-2"
             >
               {icon}
               {/* <el.icon className={clsx('h-5 w-5', el?.iconClass)} /> */}

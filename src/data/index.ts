@@ -26,7 +26,7 @@ export const links: Array<ILink> = [
     icon: 'pull-request',
   },
   {
-    name: 'Add razorpay integration - not merged but good PR',
+    name: 'Add razorpay integration',
     href: 'https://github.com/code100x/cms/pull/175',
     icon: 'pull-request',
   },
