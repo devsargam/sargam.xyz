@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-white dark:bg-zinc-900">
       <body className={inter.className}>
-        <main className="bg-white dark:bg-zinc-900 min-h-screen">
+        <main className="bg-white dark:border-zinc-800 border-zinc-200 border-2 dark:bg-zinc-900 min-h-screen max-w-2xl mx-auto my-1 px-4 py-4">
           {children}
           <SpeedInsights />
           <Analytics />
