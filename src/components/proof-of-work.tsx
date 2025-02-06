@@ -1,13 +1,9 @@
 import { IconNameType, links } from '@/data';
-import dynamic from 'next/dynamic';
 import React from 'react';
 import PullRequestIcon from './icons/pull-request-icon';
 import GithubLogoIcon from './icons/github-logo-icon';
 import CoffeeIcon from './icons/coffee-icon';
-const GitHubCalendar = dynamic(() => import('react-github-calendar'), {
-  ssr: false,
-  loading: () => <div className="h-[159px] w-full" />,
-});
+import GithubCalender from './github-calender';
 
 function ProofOfWork() {
   return (
@@ -18,7 +14,7 @@ function ProofOfWork() {
       <p className="text-gray-600 dark:text-gray-400 mb-4">
         All the work I have done so far in public && people&apos;s appreciation
       </p>
-      <GitHubCalendar username="devsargam" />
+      <GithubCalender />
       {/* TODO: Add a nice table or such design */}
       <ProofOfWorkList />
     </div>
