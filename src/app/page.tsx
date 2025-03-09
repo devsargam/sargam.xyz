@@ -6,7 +6,7 @@ import WorkExperience from '@/components/work-experience';
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-y-8 justify-center items-start max-w-2xl mx-auto my-1 dark:border-zinc-800 border-zinc-200 border-2 px-4 py-4">
+    <main className="flex flex-col gap-y-8 justify-center items-start mx-auto">
       {/* Introduction Section */}
       <Introduction />
       {/* Proof of work Section */}
