@@ -41,6 +41,23 @@ async function getPost(slug: string) {
   }
 }
 
+export async function generateStaticParams() {
+  const contentDir = path.join(process.cwd(), 'src/content');
+
+  try {
+    const files = fs.readdirSync(contentDir);
+
+    return files
+      .filter((file) => file.endsWith('.md'))
+      .map((file) => ({
+        slug: file.replace(/\.md$/, ''),
+      }));
+  } catch (error) {
+    console.error('Error generating static params:', error);
+    return [];
+  }
+}
+
 export default async function BlogPost({ params }: PageProps) {
   const post = await getPost(params.slug);
 
