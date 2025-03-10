@@ -1,7 +1,7 @@
 import { getAllBlogPosts } from '@/utils/get-blog-posts';
-import Link from 'next/link';
 import BookIcon from './icons/book-icon';
 import type { BlogPost } from '@/utils/get-blog-posts';
+import { Link } from 'next-view-transitions';
 
 // Get blog posts at build time
 const blogPosts = getAllBlogPosts();
