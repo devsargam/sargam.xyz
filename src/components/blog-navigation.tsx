@@ -1,9 +1,8 @@
 'use client';
 
-import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Home } from 'lucide-react';
-
+import { Link } from 'next-view-transitions';
 interface BlogLink {
   title: string;
   href: string;

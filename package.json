@@ -17,6 +17,7 @@
     "markdown-to-jsx": "^7.4.1",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.1.0",
+    "next-view-transitions": "^0.3.4",
     "react": "^18.3.1",
     "react-calendar-heatmap": "^1.9.0",
     "react-dom": "^18.3.1",
