@@ -14,10 +14,11 @@ function GithubCalender() {
     <GitHubCalendar
       username="devsargam"
       transformData={(d) => {
-        setTotalCount(d.map((el) => el.count).reduce((acc, curr) => acc + curr, 0));
-        return d.slice(99, 365);
+        setTotalCount(
+          d.map((el) => el.count).reduce((acc, curr) => acc + curr, 0)
+        );
+        return d.slice(91, 365);
       }}
-      weekStart={1}
       totalCount={totalCount}
     />
   );
