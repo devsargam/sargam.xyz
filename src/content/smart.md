@@ -1,6 +1,6 @@
 ---
 title: Smartness is a choice
-date: '2024-03-09'
+date: '2025-03-09'
 ---
 
 There is only few criterias that one need to be good at to be called "SMART" in society. From our early childhood people start to judge us based upon various things like the way we speak, habits we cultivate and mainly studies.

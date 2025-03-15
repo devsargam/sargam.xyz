@@ -1,6 +1,6 @@
 ---
 title: Most people are average
-date: '2024-03-14'
+date: '2025-03-14'
 ---
 
 In software engineering, many people are just worried just about their next job, next paycheck, next job switch and so on. Merely only a handful try to construct enough skills to make themselves so good that no companies will leave them behind.
