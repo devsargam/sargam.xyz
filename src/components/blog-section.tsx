@@ -34,7 +34,7 @@ function BlogSection() {
       </div>
 
       {blogPosts.length > 0 ? (
-        <div className="flex flex-col w-full mt-2">
+        <div className="flex flex-col w-full mt-2 gap-y-2">
           {blogPosts.map((post) => (
             <BlogCard key={post.slug} post={post} />
           ))}
