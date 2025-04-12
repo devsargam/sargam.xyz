@@ -26,6 +26,16 @@ export const links: Array<ILink> = [
     icon: 'pull-request',
   },
   {
+    name: 'Cache all screenshots in single directory in shortest',
+    href: 'https://github.com/antiwork/shortest/pull/387',
+    icon: 'pull-request',
+  },
+  {
+    name: 'Auto close support tickets that are old',
+    href: 'https://github.com/antiwork/helper/pull/65',
+    icon: 'pull-request',
+  },
+  {
     name: 'Add razorpay integration',
     href: 'https://github.com/code100x/cms/pull/175',
     icon: 'pull-request',
