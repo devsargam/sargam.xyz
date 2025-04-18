@@ -58,6 +58,27 @@ export async function generateStaticParams() {
   }
 }
 
+export async function generateMetadata(props: PageProps) {
+  const params = await props.params;
+  const post = await getPost(params.slug);
+
+  if (!post) {
+    return notFound();
+  }
+
+  return {
+    openGraph: {
+      title: params.slug,
+      description: post.title,
+      images: [
+        {
+          url: `/og-image/${params.slug}`,
+        },
+      ],
+    },
+  };
+}
+
 export default async function BlogPost(props: PageProps) {
   const params = await props.params;
   const post = await getPost(params.slug);
