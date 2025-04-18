@@ -1,9 +1,10 @@
+import { getAllBlogPosts } from '@/utils/get-blog-posts';
 import { ImageResponse } from 'next/og';
 
-// export async function generateStaticParams() {
-//   const posts = await getAllPosts();
-//   return posts.map((post) => ({ slug: post.slug }));
-// }
+export async function generateStaticParams() {
+  const posts = getAllBlogPosts();
+  return posts.map((post) => ({ slug: post.slug }));
+}
 
 export async function GET(
   _request: Request,
